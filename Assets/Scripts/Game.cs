@@ -66,6 +66,11 @@ public class Game : MonoBehaviour
         {
             AddCurrency(100000);
         }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
     }
     #endregion
 
